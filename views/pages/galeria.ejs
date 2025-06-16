@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body class="container">
+    <header>
+        <%- include('../partials/header') %>
+    </header>
+
+    <main class="my-5 text-center">
+        <!-- Primeira linha com 3 imagens -->
+        <div class="row justify-content-center mb-4">
+            <!-- <div class="col-auto text-center"> -->
+                <img src="imagens/js.png" alt="Logo JavaScript" class="img-fluid tech-logo m-2" style="max-height: 150px;">
+            <!-- </div> -->
+            <!-- <div class="col-auto text-center"> -->
+                <img src="imagens/node.png" alt="Logo Node.js" class="img-fluid tech-logo m-2" style="max-height: 150px;">
+            <!-- </div> -->
+            <!-- <div class="col-auto text-center"> -->
+                <img src="imagens/php.png" alt="Logo PHP" class="img-fluid tech-logo m-2" style="max-height: 150px;">
+            <!-- </div> -->
+        </div>
+
+        <!-- Segunda linha com 3 imagens -->
+        <div class="row justify-content-center mb-4">
+            <!-- <div class="col-auto text-center"> -->
+                <img src="imagens/py.png" alt="Logo Python" class="img-fluid tech-logo m-2" style="max-height: 150px;">
+            <!-- </div> -->
+            <!-- <div class="col-auto text-center"> -->
+                <img src="imagens/c.png" alt="Logo C#" class="img-fluid tech-logo m-2" style="max-height: 150px;">
+            <!-- </div> -->
+            <!-- <div class="col-auto text-center"> -->
+                <img src="imagens/ty.png" alt="Logo TypeScript" class="img-fluid tech-logo m-2" style="max-height: 150px;">
+            <!-- </div> -->
+        </div>
+
+        <!-- Terceira linha com 1 imagem (centralizada) -->
+        <div class="row justify-content-center">
+            <div class="col-auto text-center">
+                <img src="imagens/react.png" alt="Logo React" class="img-fluid tech-logo m-2" style="max-height: 150px;">
+            </div>
+        </div>
+    </main>
+
+    <%- include('../partials/footer') %>
+
+    <!-- Estilo para efeitos de hover -->
+    <style>
+        .tech-logo {
+            transition: all 0.3s ease;
+            filter: grayscale(20%);
+            opacity: 0.9;
+        }
+        .tech-logo:hover {
+            transform: scale(1.1);
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+    </style>
+</body>
+</html>
