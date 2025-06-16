@@ -9,6 +9,8 @@ Projeto desenvolvido para as aulas de Programação Web 2, criando uma interface
 
 ## Funcionalidades ✨
 
+📱 **Responsividade Total**: Layout adaptável a todos os dispositivos (mobile, tablet e desktop).  
+
 🖱️ **Navegação Intuitiva**: Quatro rotas organizadas para demonstração dos conceitos:  
  `/` - Página de Home  
  `/sobre` - Informações sobre a empresa  
