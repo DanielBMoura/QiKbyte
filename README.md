@@ -34,7 +34,7 @@ Projeto desenvolvido para as aulas de Programação Web 2, criando uma interface
 Para clonar o repositório, execute o seguinte comando:
 
 ```bash
-git clone https://github.com/DanielBMoura/AtividadePW2.git
+git clone https://github.com/DanielBMoura/QiKbyte.git
 ```
 
 ## Inicializando o servidor 🚀
