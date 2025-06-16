@@ -10,10 +10,10 @@ Projeto desenvolvido para as aulas de Programação Web 2, criando uma interface
 ## Funcionalidades ✨
 
 🖱️ **Navegação Intuitiva**: Quatro rotas organizadas para demonstração dos conceitos:  
-- `/` - Página de Home  
-- `/sobre` - Informações sobre a empresa  
-- `/cadastro` - Formulário de cadastro  
-- `/galeria` - Galeria de imagens sobre os cursos oferecidos da empresa
+ `/` - Página de Home  
+ `/sobre` - Informações sobre a empresa  
+ `/cadastro` - Formulário de cadastro  
+ `/galeria` - Galeria de imagens sobre os cursos oferecidos da empresa
 
 🔗 **Estrutura Modular**: Uso de partials EJS para reutilização de componentes como header e footer.
 
